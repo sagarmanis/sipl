@@ -1,0 +1,1830 @@
+2023-07-24 15:57:20.085552: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-24 15:57:20.085552: wfastcgi.py 3.0.0 initialized
+2023-07-24 16:02:25.172441: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-24 16:02:25.172441: Running on_exit tasks
+2023-07-24 16:02:25.172441: wfastcgi.py 3.0.0 closed
+2023-07-24 16:09:06.242612: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-24 16:09:06.245612: wfastcgi.py 3.0.0 initialized
+2023-07-24 16:15:52.342410: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-24 16:15:52.357975: Running on_exit tasks
+2023-07-24 16:15:52.357975: wfastcgi.py 3.0.0 closed
+2023-07-24 16:24:18.005392: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-24 16:24:18.007359: wfastcgi.py 3.0.0 initialized
+2023-07-24 16:25:02.826624: wfastcgi.py exiting because app.py has changed, matching .*((\.py)|(\.config))$
+2023-07-24 16:25:02.826624: Running on_exit tasks
+2023-07-24 16:25:16.046063: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:25:16.047062: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:25:16.049071: Running on_exit tasks
+2023-07-24 16:25:16.049071: wfastcgi.py 3.0.0 closed
+2023-07-24 16:31:29.541748: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:31:29.543840: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:31:29.545752: Running on_exit tasks
+2023-07-24 16:31:29.546748: wfastcgi.py 3.0.0 closed
+2023-07-24 16:34:16.497119: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:34:16.499121: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:34:16.500124: Running on_exit tasks
+2023-07-24 16:34:16.503133: wfastcgi.py 3.0.0 closed
+2023-07-24 16:37:23.201407: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:37:23.204409: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:37:23.205411: Running on_exit tasks
+2023-07-24 16:37:23.206409: wfastcgi.py 3.0.0 closed
+2023-07-24 16:42:21.661198: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:42:21.664193: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:42:21.664193: Running on_exit tasks
+2023-07-24 16:42:21.666195: wfastcgi.py 3.0.0 closed
+2023-07-24 16:43:54.806571: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:43:54.807595: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:43:54.808581: Running on_exit tasks
+2023-07-24 16:43:54.809570: wfastcgi.py 3.0.0 closed
+2023-07-24 16:45:34.438394: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:45:34.447399: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:45:34.448384: Running on_exit tasks
+2023-07-24 16:45:34.450381: wfastcgi.py 3.0.0 closed
+2023-07-24 16:47:01.861295: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:47:01.867295: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:47:01.868295: Running on_exit tasks
+2023-07-24 16:47:01.870298: wfastcgi.py 3.0.0 closed
+2023-07-24 16:50:46.392423: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:50:46.394408: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:50:46.396410: Running on_exit tasks
+2023-07-24 16:50:46.396410: wfastcgi.py 3.0.0 closed
+2023-07-24 16:51:32.078523: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:51:32.081558: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:51:32.081558: Running on_exit tasks
+2023-07-24 16:51:32.082525: wfastcgi.py 3.0.0 closed
+2023-07-24 16:51:50.678828: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:51:50.679798: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:51:50.680797: Running on_exit tasks
+2023-07-24 16:51:50.681796: wfastcgi.py 3.0.0 closed
+2023-07-24 16:52:33.433805: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:52:33.436805: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:52:33.436805: Running on_exit tasks
+2023-07-24 16:52:33.438806: wfastcgi.py 3.0.0 closed
+2023-07-24 16:54:11.913092: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:54:11.913092: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:54:11.913092: Running on_exit tasks
+2023-07-24 16:54:11.913092: wfastcgi.py 3.0.0 closed
+2023-07-24 16:54:26.561970: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:54:26.562958: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:54:26.563960: Running on_exit tasks
+2023-07-24 16:54:26.564960: wfastcgi.py 3.0.0 closed
+2023-07-24 16:59:52.676604: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 16:59:52.681609: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 16:59:52.683610: Running on_exit tasks
+2023-07-24 16:59:52.685609: wfastcgi.py 3.0.0 closed
+2023-07-24 17:01:01.997258: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 17:01:01.999261: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 17:01:01.999261: Running on_exit tasks
+2023-07-24 17:01:02.002263: wfastcgi.py 3.0.0 closed
+2023-07-24 17:02:57.267520: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 17:02:57.270509: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 17:02:57.271499: Running on_exit tasks
+2023-07-24 17:02:57.272503: wfastcgi.py 3.0.0 closed
+2023-07-24 17:08:47.240516: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 17:08:47.243516: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 17:08:47.245515: Running on_exit tasks
+2023-07-24 17:08:47.246515: wfastcgi.py 3.0.0 closed
+2023-07-24 17:30:26.396604: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 17:30:26.398601: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 17:30:26.399604: Running on_exit tasks
+2023-07-24 17:30:26.400607: wfastcgi.py 3.0.0 closed
+2023-07-24 17:42:29.857361: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+
+
+StdOut: 
+
+StdErr: 
+2023-07-24 17:42:29.863304: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "app.app" could not be imported: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File "C:\inetpub\wwwroot\FlaskApp\.\app.py", line 7, in <module>
+    from pdf2image import convert_from_path
+ModuleNotFoundError: No module named 'pdf2image'
+
+2023-07-24 17:42:29.866303: Running on_exit tasks
+2023-07-24 17:42:29.866303: wfastcgi.py 3.0.0 closed
+2023-07-24 17:47:32.116241: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-24 17:47:32.120239: wfastcgi.py 3.0.0 initialized
+2023-07-24 17:58:24.890014: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-24 17:58:24.890014: Running on_exit tasks
+2023-07-24 17:58:24.890014: wfastcgi.py 3.0.0 closed
+2023-07-24 18:25:51.877902: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-24 18:25:51.893529: wfastcgi.py 3.0.0 initialized
+2023-07-24 18:32:40.904774: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-24 18:32:40.904774: Running on_exit tasks
+2023-07-24 18:32:40.904774: wfastcgi.py 3.0.0 closed
+2023-07-24 18:34:09.267530: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-24 18:34:09.267530: wfastcgi.py 3.0.0 initialized
+2023-07-24 18:39:19.518471: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-24 18:39:19.518471: Running on_exit tasks
+2023-07-24 18:39:19.518471: wfastcgi.py 3.0.0 closed
+2023-07-24 18:41:39.485990: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-24 18:41:39.485990: wfastcgi.py 3.0.0 initialized
+2023-07-24 18:46:47.145051: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-24 18:46:47.145051: Running on_exit tasks
+2023-07-24 18:46:47.145051: wfastcgi.py 3.0.0 closed
+2023-07-24 18:48:51.457119: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-24 18:48:51.472744: wfastcgi.py 3.0.0 initialized
+2023-07-24 19:01:35.551336: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-24 19:01:35.551336: Running on_exit tasks
+2023-07-24 19:01:35.551336: wfastcgi.py 3.0.0 closed
+2023-07-24 22:37:32.411309: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-24 22:37:32.426958: wfastcgi.py 3.0.0 initialized
+2023-07-24 22:42:36.117117: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-24 22:42:36.117117: Running on_exit tasks
+2023-07-24 22:42:36.117117: wfastcgi.py 3.0.0 closed
+2023-07-25 09:28:42.003866: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 09:28:42.003866: wfastcgi.py 3.0.0 initialized
+2023-07-25 09:45:26.135905: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 09:45:26.135905: Running on_exit tasks
+2023-07-25 09:45:26.135905: wfastcgi.py 3.0.0 closed
+2023-07-25 09:51:28.112318: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 09:51:28.127944: wfastcgi.py 3.0.0 initialized
+2023-07-25 09:56:31.516906: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 09:56:31.516906: Running on_exit tasks
+2023-07-25 09:56:31.516906: wfastcgi.py 3.0.0 closed
+2023-07-25 10:04:50.639939: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 10:04:50.639939: wfastcgi.py 3.0.0 initialized
+2023-07-25 10:09:59.253192: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 10:09:59.253192: Running on_exit tasks
+2023-07-25 10:09:59.253192: wfastcgi.py 3.0.0 closed
+2023-07-25 10:10:32.450770: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 10:10:32.450770: wfastcgi.py 3.0.0 initialized
+2023-07-25 10:15:41.973690: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 10:15:41.973690: Running on_exit tasks
+2023-07-25 10:15:41.973690: wfastcgi.py 3.0.0 closed
+2023-07-25 10:27:29.814404: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 10:27:29.814404: wfastcgi.py 3.0.0 initialized
+2023-07-25 10:43:44.388251: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 10:43:44.388251: Running on_exit tasks
+2023-07-25 10:43:44.403877: wfastcgi.py 3.0.0 closed
+2023-07-25 10:49:16.881670: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 10:49:16.881670: wfastcgi.py 3.0.0 initialized
+2023-07-25 10:57:12.183052: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 10:57:12.183052: Running on_exit tasks
+2023-07-25 10:57:12.183052: wfastcgi.py 3.0.0 closed
+2023-07-25 11:10:40.018155: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 11:10:40.018155: wfastcgi.py 3.0.0 initialized
+2023-07-25 11:28:37.706473: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 11:28:37.722068: Running on_exit tasks
+2023-07-25 11:28:37.722068: wfastcgi.py 3.0.0 closed
+2023-07-25 11:36:40.006474: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 11:36:40.006474: wfastcgi.py 3.0.0 initialized
+2023-07-25 11:43:33.408034: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 11:43:33.408034: Running on_exit tasks
+2023-07-25 11:43:33.408034: wfastcgi.py 3.0.0 closed
+2023-07-25 12:07:46.116370: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 12:07:46.116370: wfastcgi.py 3.0.0 initialized
+2023-07-25 12:12:57.554525: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 12:12:57.554525: Running on_exit tasks
+2023-07-25 12:12:57.554525: wfastcgi.py 3.0.0 closed
+2023-07-25 12:25:36.767740: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 12:25:36.767740: wfastcgi.py 3.0.0 initialized
+2023-07-25 12:33:05.942500: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 12:33:05.942500: Running on_exit tasks
+2023-07-25 12:33:05.942500: wfastcgi.py 3.0.0 closed
+2023-07-25 12:39:37.897718: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 12:39:37.897718: wfastcgi.py 3.0.0 initialized
+2023-07-25 13:04:38.955569: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 13:04:38.955569: Running on_exit tasks
+2023-07-25 13:04:38.955569: wfastcgi.py 3.0.0 closed
+2023-07-25 14:20:08.987912: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 14:20:08.987912: wfastcgi.py 3.0.0 initialized
+2023-07-25 14:29:58.299976: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 14:29:58.299976: Running on_exit tasks
+2023-07-25 14:29:58.299976: wfastcgi.py 3.0.0 closed
+2023-07-25 14:36:58.458060: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 14:36:58.458060: wfastcgi.py 3.0.0 initialized
+2023-07-25 14:42:03.274279: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 14:42:03.274279: Running on_exit tasks
+2023-07-25 14:42:03.274279: wfastcgi.py 3.0.0 closed
+2023-07-25 14:44:42.095999: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 14:44:42.095999: wfastcgi.py 3.0.0 initialized
+2023-07-25 14:54:57.400884: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 14:54:57.400884: Running on_exit tasks
+2023-07-25 14:54:57.400884: wfastcgi.py 3.0.0 closed
+2023-07-25 14:56:15.304141: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 14:56:15.304141: wfastcgi.py 3.0.0 initialized
+2023-07-25 15:06:39.285689: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 15:06:39.285689: Running on_exit tasks
+2023-07-25 15:06:39.285689: wfastcgi.py 3.0.0 closed
+2023-07-25 15:18:57.348199: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 15:18:57.348199: wfastcgi.py 3.0.0 initialized
+2023-07-25 15:39:51.724118: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 15:39:51.739701: Running on_exit tasks
+2023-07-25 15:39:51.739701: wfastcgi.py 3.0.0 closed
+2023-07-25 15:41:16.410622: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 15:41:16.410622: wfastcgi.py 3.0.0 initialized
+2023-07-25 15:50:27.316272: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 15:50:27.316272: Running on_exit tasks
+2023-07-25 15:50:27.316272: wfastcgi.py 3.0.0 closed
+2023-07-25 16:02:54.817721: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 16:02:54.817721: wfastcgi.py 3.0.0 initialized
+2023-07-25 16:09:48.399095: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 16:09:48.399095: Running on_exit tasks
+2023-07-25 16:09:48.399095: wfastcgi.py 3.0.0 closed
+2023-07-25 16:21:02.269691: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 16:21:02.269691: wfastcgi.py 3.0.0 initialized
+2023-07-25 16:37:16.128761: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 16:37:16.128761: Running on_exit tasks
+2023-07-25 16:37:16.128761: wfastcgi.py 3.0.0 closed
+2023-07-25 16:46:59.993248: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 16:46:59.993248: wfastcgi.py 3.0.0 initialized
+2023-07-25 16:53:18.461524: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 16:53:18.461524: Running on_exit tasks
+2023-07-25 16:53:18.461524: wfastcgi.py 3.0.0 closed
+2023-07-25 16:54:28.946944: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 16:54:28.946944: wfastcgi.py 3.0.0 initialized
+2023-07-25 16:59:37.485071: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 16:59:37.485071: Running on_exit tasks
+2023-07-25 16:59:37.485071: wfastcgi.py 3.0.0 closed
+2023-07-25 17:05:48.798063: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 17:05:48.798063: wfastcgi.py 3.0.0 initialized
+2023-07-25 17:19:43.789598: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 17:19:43.805200: Running on_exit tasks
+2023-07-25 17:19:43.805200: wfastcgi.py 3.0.0 closed
+2023-07-25 17:22:36.758307: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 17:22:36.773933: wfastcgi.py 3.0.0 initialized
+2023-07-25 17:31:15.854857: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 17:31:15.854857: Running on_exit tasks
+2023-07-25 17:31:15.854857: wfastcgi.py 3.0.0 closed
+2023-07-25 18:45:18.284278: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 18:45:18.284278: wfastcgi.py 3.0.0 initialized
+2023-07-25 18:50:25.424263: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 18:50:25.424263: Running on_exit tasks
+2023-07-25 18:50:25.424263: wfastcgi.py 3.0.0 closed
+2023-07-25 18:55:16.223907: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-25 18:55:16.223907: wfastcgi.py 3.0.0 initialized
+2023-07-25 19:01:01.426685: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-25 19:01:01.426685: Running on_exit tasks
+2023-07-25 19:01:01.426685: wfastcgi.py 3.0.0 closed
+2023-07-26 09:58:23.241506: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 09:58:23.241506: wfastcgi.py 3.0.0 initialized
+2023-07-26 09:58:27.522778: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 09:58:27.538401: wfastcgi.py 3.0.0 initialized
+2023-07-26 10:03:27.131288: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 10:03:27.131288: Running on_exit tasks
+2023-07-26 10:03:27.131288: wfastcgi.py 3.0.0 closed
+2023-07-26 10:03:37.146951: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 10:03:37.146951: Running on_exit tasks
+2023-07-26 10:03:37.146951: wfastcgi.py 3.0.0 closed
+2023-07-26 10:15:08.474112: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 10:15:08.474112: wfastcgi.py 3.0.0 initialized
+2023-07-26 10:22:02.865887: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 10:22:02.865887: Running on_exit tasks
+2023-07-26 10:22:02.865887: wfastcgi.py 3.0.0 closed
+2023-07-26 10:25:50.211286: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 10:25:50.211286: wfastcgi.py 3.0.0 initialized
+2023-07-26 10:36:16.035823: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 10:36:16.051446: Running on_exit tasks
+2023-07-26 10:36:16.051446: wfastcgi.py 3.0.0 closed
+2023-07-26 10:54:01.489147: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 10:54:01.489147: wfastcgi.py 3.0.0 initialized
+2023-07-26 10:59:01.377460: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 10:59:01.377460: Running on_exit tasks
+2023-07-26 10:59:01.377460: wfastcgi.py 3.0.0 closed
+2023-07-26 11:32:52.770786: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 11:32:52.770786: wfastcgi.py 3.0.0 initialized
+2023-07-26 11:38:02.409114: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 11:38:02.409114: Running on_exit tasks
+2023-07-26 11:38:02.409114: wfastcgi.py 3.0.0 closed
+2023-07-26 12:43:33.647836: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 12:43:33.647836: wfastcgi.py 3.0.0 initialized
+2023-07-26 12:48:41.163344: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 12:48:41.163344: Running on_exit tasks
+2023-07-26 12:48:41.163344: wfastcgi.py 3.0.0 closed
+2023-07-26 13:58:21.440910: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 13:58:21.440910: wfastcgi.py 3.0.0 initialized
+2023-07-26 14:03:28.159275: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 14:03:28.159275: Running on_exit tasks
+2023-07-26 14:03:28.159275: wfastcgi.py 3.0.0 closed
+2023-07-26 14:06:02.355258: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 14:06:02.355258: wfastcgi.py 3.0.0 initialized
+2023-07-26 14:18:47.185829: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 14:18:47.185829: Running on_exit tasks
+2023-07-26 14:18:47.185829: wfastcgi.py 3.0.0 closed
+2023-07-26 14:48:15.168600: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 14:48:15.168600: wfastcgi.py 3.0.0 initialized
+2023-07-26 14:53:14.230940: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 14:53:14.230940: Running on_exit tasks
+2023-07-26 14:53:14.230940: wfastcgi.py 3.0.0 closed
+2023-07-26 15:45:36.872915: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 15:45:36.872915: wfastcgi.py 3.0.0 initialized
+2023-07-26 15:51:50.597878: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 15:51:50.597878: wfastcgi.py 3.0.0 initialized
+2023-07-26 15:57:29.105956: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 15:57:29.105956: Running on_exit tasks
+2023-07-26 15:57:29.105956: wfastcgi.py 3.0.0 closed
+2023-07-26 16:01:47.327550: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 16:01:47.327550: wfastcgi.py 3.0.0 initialized
+2023-07-26 16:07:14.879157: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 16:07:14.879157: wfastcgi.py 3.0.0 initialized
+2023-07-26 16:15:36.896666: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 16:15:36.912294: wfastcgi.py 3.0.0 initialized
+2023-07-26 16:31:44.858519: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 16:31:44.858519: Running on_exit tasks
+2023-07-26 16:31:44.858519: wfastcgi.py 3.0.0 closed
+2023-07-26 16:32:30.540787: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 16:32:30.540787: wfastcgi.py 3.0.0 initialized
+2023-07-26 16:52:16.608491: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 16:52:16.608491: Running on_exit tasks
+2023-07-26 16:52:16.608491: wfastcgi.py 3.0.0 closed
+2023-07-26 16:52:39.139815: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 16:52:39.139815: wfastcgi.py 3.0.0 initialized
+2023-07-26 17:04:50.233502: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 17:04:50.233502: Running on_exit tasks
+2023-07-26 17:04:50.233502: wfastcgi.py 3.0.0 closed
+2023-07-26 17:10:38.670584: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 17:10:38.686208: wfastcgi.py 3.0.0 initialized
+2023-07-26 17:15:50.482527: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 17:15:50.482527: Running on_exit tasks
+2023-07-26 17:15:50.482527: wfastcgi.py 3.0.0 closed
+2023-07-26 17:20:28.259902: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 17:20:28.259902: wfastcgi.py 3.0.0 initialized
+2023-07-26 17:28:34.561906: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 17:28:34.561906: Running on_exit tasks
+2023-07-26 17:28:34.561906: wfastcgi.py 3.0.0 closed
+2023-07-26 18:15:45.421895: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 18:15:45.421895: wfastcgi.py 3.0.0 initialized
+2023-07-26 18:20:52.362165: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 18:20:52.362165: Running on_exit tasks
+2023-07-26 18:20:52.362165: wfastcgi.py 3.0.0 closed
+2023-07-26 18:33:48.202495: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 18:33:48.202495: wfastcgi.py 3.0.0 initialized
+2023-07-26 18:41:52.725721: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 18:41:52.725721: Running on_exit tasks
+2023-07-26 18:41:52.725721: wfastcgi.py 3.0.0 closed
+2023-07-26 18:47:45.440025: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 18:47:45.440025: wfastcgi.py 3.0.0 initialized
+2023-07-26 18:59:55.253230: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 18:59:55.253230: Running on_exit tasks
+2023-07-26 18:59:55.253230: wfastcgi.py 3.0.0 closed
+2023-07-26 19:02:38.658354: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 19:02:38.658354: wfastcgi.py 3.0.0 initialized
+2023-07-26 19:08:59.737783: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 19:08:59.737783: Running on_exit tasks
+2023-07-26 19:08:59.737783: wfastcgi.py 3.0.0 closed
+2023-07-26 19:20:34.502202: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 19:20:34.502202: wfastcgi.py 3.0.0 initialized
+2023-07-26 19:27:30.394958: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 19:27:30.394958: Running on_exit tasks
+2023-07-26 19:27:30.394958: wfastcgi.py 3.0.0 closed
+2023-07-26 19:42:59.842319: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-26 19:42:59.842319: wfastcgi.py 3.0.0 initialized
+2023-07-26 19:54:35.592092: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-26 19:54:35.592092: Running on_exit tasks
+2023-07-26 19:54:35.592092: wfastcgi.py 3.0.0 closed
+2023-07-27 09:38:36.501533: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 09:38:36.501533: wfastcgi.py 3.0.0 initialized
+2023-07-27 09:46:35.334900: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 09:46:35.334900: Running on_exit tasks
+2023-07-27 09:46:35.334900: wfastcgi.py 3.0.0 closed
+2023-07-27 09:58:14.441576: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 09:58:14.441576: wfastcgi.py 3.0.0 initialized
+2023-07-27 10:03:57.852362: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 10:03:57.852362: Running on_exit tasks
+2023-07-27 10:03:57.852362: wfastcgi.py 3.0.0 closed
+2023-07-27 10:23:26.942163: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 10:23:26.942163: wfastcgi.py 3.0.0 initialized
+2023-07-27 10:28:31.833789: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 10:28:31.833789: Running on_exit tasks
+2023-07-27 10:28:31.833789: wfastcgi.py 3.0.0 closed
+2023-07-27 11:26:13.569703: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 11:26:13.585334: wfastcgi.py 3.0.0 initialized
+2023-07-27 11:34:44.582953: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 11:34:44.582953: Running on_exit tasks
+2023-07-27 11:34:44.582953: wfastcgi.py 3.0.0 closed
+2023-07-27 11:43:58.303022: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 11:43:58.303022: wfastcgi.py 3.0.0 initialized
+2023-07-27 11:51:27.034757: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 11:51:27.034757: Running on_exit tasks
+2023-07-27 11:51:27.034757: wfastcgi.py 3.0.0 closed
+2023-07-27 12:53:47.237467: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 12:53:47.237467: wfastcgi.py 3.0.0 initialized
+2023-07-27 13:06:28.550765: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 13:06:28.550765: Running on_exit tasks
+2023-07-27 13:06:28.550765: wfastcgi.py 3.0.0 closed
+2023-07-27 13:07:56.693263: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 13:07:56.693263: wfastcgi.py 3.0.0 initialized
+2023-07-27 13:13:06.097109: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 13:13:06.097109: Running on_exit tasks
+2023-07-27 13:13:06.097109: wfastcgi.py 3.0.0 closed
+2023-07-27 14:04:29.429859: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 14:04:29.429859: wfastcgi.py 3.0.0 initialized
+2023-07-27 14:09:38.956609: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 14:09:38.956609: Running on_exit tasks
+2023-07-27 14:09:38.956609: wfastcgi.py 3.0.0 closed
+2023-07-27 14:35:25.710256: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 14:35:25.710256: wfastcgi.py 3.0.0 initialized
+2023-07-27 14:41:43.593391: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 14:41:43.593391: Running on_exit tasks
+2023-07-27 14:41:43.593391: wfastcgi.py 3.0.0 closed
+2023-07-27 15:21:58.921752: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 15:21:58.921752: wfastcgi.py 3.0.0 initialized
+2023-07-27 15:27:33.598228: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 15:27:33.613852: Running on_exit tasks
+2023-07-27 15:27:33.613852: wfastcgi.py 3.0.0 closed
+2023-07-27 15:37:35.703226: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 15:37:35.703226: wfastcgi.py 3.0.0 initialized
+2023-07-27 15:49:05.188092: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 15:49:05.188092: Running on_exit tasks
+2023-07-27 15:49:05.188092: wfastcgi.py 3.0.0 closed
+2023-07-27 16:23:07.893408: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 16:23:07.909033: wfastcgi.py 3.0.0 initialized
+2023-07-27 16:29:26.732089: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 16:29:26.732089: Running on_exit tasks
+2023-07-27 16:29:26.732089: wfastcgi.py 3.0.0 closed
+2023-07-27 16:47:37.655392: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 16:47:37.655392: wfastcgi.py 3.0.0 initialized
+2023-07-27 16:56:16.784118: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 16:56:16.784118: Running on_exit tasks
+2023-07-27 16:56:16.784118: wfastcgi.py 3.0.0 closed
+2023-07-27 17:08:31.312989: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 17:08:31.312989: wfastcgi.py 3.0.0 initialized
+2023-07-27 17:15:25.470322: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 17:15:25.470322: Running on_exit tasks
+2023-07-27 17:15:25.470322: wfastcgi.py 3.0.0 closed
+2023-07-27 17:17:16.348628: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 17:17:16.348628: wfastcgi.py 3.0.0 initialized
+2023-07-27 17:23:35.781651: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 17:23:35.781651: Running on_exit tasks
+2023-07-27 17:23:35.781651: wfastcgi.py 3.0.0 closed
+2023-07-27 17:58:45.036508: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 17:58:45.036508: wfastcgi.py 3.0.0 initialized
+2023-07-27 18:03:55.174110: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 18:03:55.174110: Running on_exit tasks
+2023-07-27 18:03:55.174110: wfastcgi.py 3.0.0 closed
+2023-07-27 18:35:57.735352: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 18:35:57.735352: wfastcgi.py 3.0.0 initialized
+2023-07-27 18:41:05.674684: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 18:41:05.674684: Running on_exit tasks
+2023-07-27 18:41:05.674684: wfastcgi.py 3.0.0 closed
+2023-07-27 18:42:17.893084: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 18:42:17.893084: wfastcgi.py 3.0.0 initialized
+2023-07-27 18:48:02.000078: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 18:48:02.000078: Running on_exit tasks
+2023-07-27 18:48:02.000078: wfastcgi.py 3.0.0 closed
+2023-07-27 19:01:03.940923: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 19:01:03.940923: wfastcgi.py 3.0.0 initialized
+2023-07-27 19:06:11.391919: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 19:06:11.391919: Running on_exit tasks
+2023-07-27 19:06:11.391919: wfastcgi.py 3.0.0 closed
+2023-07-27 19:07:27.362049: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-27 19:07:27.362049: wfastcgi.py 3.0.0 initialized
+2023-07-27 19:13:13.332360: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-27 19:13:13.332360: Running on_exit tasks
+2023-07-27 19:13:13.332360: wfastcgi.py 3.0.0 closed
+2023-07-28 16:08:08.774531: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-28 16:08:08.790146: wfastcgi.py 3.0.0 initialized
+2023-07-28 16:20:06.232625: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-28 16:20:06.232625: Running on_exit tasks
+2023-07-28 16:20:06.232625: wfastcgi.py 3.0.0 closed
+2023-07-28 17:35:10.367716: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-28 17:35:10.367716: wfastcgi.py 3.0.0 initialized
+2023-07-28 17:45:31.975787: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-28 17:45:31.991415: Running on_exit tasks
+2023-07-28 17:45:31.991415: wfastcgi.py 3.0.0 closed
+2023-07-28 17:49:51.374281: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-28 17:49:51.374281: wfastcgi.py 3.0.0 initialized
+2023-07-28 17:54:55.509120: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-28 17:54:55.509120: Running on_exit tasks
+2023-07-28 17:54:55.509120: wfastcgi.py 3.0.0 closed
+2023-07-28 18:18:33.045619: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-28 18:18:33.045619: wfastcgi.py 3.0.0 initialized
+2023-07-28 18:23:37.911727: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-28 18:23:37.911727: Running on_exit tasks
+2023-07-28 18:23:37.911727: wfastcgi.py 3.0.0 closed
+2023-07-28 18:24:37.444700: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-28 18:24:37.444700: wfastcgi.py 3.0.0 initialized
+2023-07-28 18:29:46.768959: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-28 18:29:46.768959: Running on_exit tasks
+2023-07-28 18:29:46.768959: wfastcgi.py 3.0.0 closed
+2023-07-28 18:35:43.379319: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-28 18:35:43.379319: wfastcgi.py 3.0.0 initialized
+2023-07-28 18:40:52.539820: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-28 18:40:52.555446: Running on_exit tasks
+2023-07-28 18:40:52.555446: wfastcgi.py 3.0.0 closed
+2023-07-29 09:39:13.567485: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 09:39:13.567485: wfastcgi.py 3.0.0 initialized
+2023-07-29 09:44:18.364198: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 09:44:18.364198: Running on_exit tasks
+2023-07-29 09:44:18.364198: wfastcgi.py 3.0.0 closed
+2023-07-29 09:56:16.507343: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 09:56:16.507343: wfastcgi.py 3.0.0 initialized
+2023-07-29 10:04:15.213356: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 10:04:15.213356: Running on_exit tasks
+2023-07-29 10:04:15.213356: wfastcgi.py 3.0.0 closed
+2023-07-29 10:07:53.958705: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 10:07:53.958705: wfastcgi.py 3.0.0 initialized
+2023-07-29 10:17:43.679344: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 10:17:43.679344: Running on_exit tasks
+2023-07-29 10:17:43.679344: wfastcgi.py 3.0.0 closed
+2023-07-29 10:57:32.563984: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 10:57:32.563984: wfastcgi.py 3.0.0 initialized
+2023-07-29 11:08:28.524720: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 11:08:28.524720: Running on_exit tasks
+2023-07-29 11:08:28.524720: wfastcgi.py 3.0.0 closed
+2023-07-29 11:13:34.536547: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 11:13:34.536547: wfastcgi.py 3.0.0 initialized
+2023-07-29 11:22:11.684218: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 11:22:11.684218: Running on_exit tasks
+2023-07-29 11:22:11.684218: wfastcgi.py 3.0.0 closed
+2023-07-29 11:40:57.517840: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 11:40:57.517840: wfastcgi.py 3.0.0 initialized
+2023-07-29 11:46:35.534260: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 11:46:35.534260: Running on_exit tasks
+2023-07-29 11:46:35.534260: wfastcgi.py 3.0.0 closed
+2023-07-29 11:49:00.317373: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 11:49:00.317373: wfastcgi.py 3.0.0 initialized
+2023-07-29 11:55:54.766168: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 11:55:54.766168: Running on_exit tasks
+2023-07-29 11:55:54.766168: wfastcgi.py 3.0.0 closed
+2023-07-29 11:56:45.879488: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 11:56:45.895115: wfastcgi.py 3.0.0 initialized
+2023-07-29 12:07:45.696226: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 12:07:45.696226: Running on_exit tasks
+2023-07-29 12:07:45.696226: wfastcgi.py 3.0.0 closed
+2023-07-29 12:08:03.282015: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 12:08:03.297639: wfastcgi.py 3.0.0 initialized
+2023-07-29 12:16:08.969810: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 12:16:08.969810: Running on_exit tasks
+2023-07-29 12:16:08.969810: wfastcgi.py 3.0.0 closed
+2023-07-29 12:16:53.954705: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 12:16:53.954705: wfastcgi.py 3.0.0 initialized
+2023-07-29 12:22:00.066747: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 12:22:00.066747: Running on_exit tasks
+2023-07-29 12:22:00.066747: wfastcgi.py 3.0.0 closed
+2023-07-29 12:24:01.321980: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 12:24:01.321980: wfastcgi.py 3.0.0 initialized
+2023-07-29 12:30:18.699451: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 12:30:18.699451: Running on_exit tasks
+2023-07-29 12:30:18.699451: wfastcgi.py 3.0.0 closed
+2023-07-29 12:31:02.692040: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 12:31:02.692040: wfastcgi.py 3.0.0 initialized
+2023-07-29 12:43:47.620000: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 12:43:47.620000: Running on_exit tasks
+2023-07-29 12:43:47.620000: wfastcgi.py 3.0.0 closed
+2023-07-29 12:48:47.747717: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 12:48:47.747717: wfastcgi.py 3.0.0 initialized
+2023-07-29 12:55:42.910391: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 12:55:42.910391: Running on_exit tasks
+2023-07-29 12:55:42.910391: wfastcgi.py 3.0.0 closed
+2023-07-29 14:31:20.690539: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 14:31:20.706165: wfastcgi.py 3.0.0 initialized
+2023-07-29 14:41:04.053239: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 14:41:04.053239: Running on_exit tasks
+2023-07-29 14:41:04.053239: wfastcgi.py 3.0.0 closed
+2023-07-29 15:57:31.435025: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 15:57:31.435025: wfastcgi.py 3.0.0 initialized
+2023-07-29 16:06:32.950962: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 16:06:32.950962: Running on_exit tasks
+2023-07-29 16:06:32.950962: wfastcgi.py 3.0.0 closed
+2023-07-29 17:31:54.453405: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 17:31:54.453405: wfastcgi.py 3.0.0 initialized
+2023-07-29 17:48:07.022258: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 17:48:07.022258: Running on_exit tasks
+2023-07-29 17:48:07.022258: wfastcgi.py 3.0.0 closed
+2023-07-29 18:02:39.328893: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 18:02:39.328893: wfastcgi.py 3.0.0 initialized
+2023-07-29 18:07:43.823962: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 18:07:43.823962: Running on_exit tasks
+2023-07-29 18:07:43.823962: wfastcgi.py 3.0.0 closed
+2023-07-29 18:29:20.799259: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-29 18:29:20.799259: wfastcgi.py 3.0.0 initialized
+2023-07-29 18:35:07.187099: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-29 18:35:07.187099: Running on_exit tasks
+2023-07-29 18:35:07.187099: wfastcgi.py 3.0.0 closed
+2023-07-31 09:45:45.110156: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-31 09:45:45.110156: wfastcgi.py 3.0.0 initialized
+2023-07-31 09:55:25.205697: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-31 09:55:25.205697: Running on_exit tasks
+2023-07-31 09:55:25.205697: wfastcgi.py 3.0.0 closed
+2023-07-31 10:03:38.442416: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-31 10:03:38.442416: wfastcgi.py 3.0.0 initialized
+2023-07-31 10:09:57.663299: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-31 10:09:57.663299: Running on_exit tasks
+2023-07-31 10:09:57.663299: wfastcgi.py 3.0.0 closed
+2023-07-31 10:28:14.227444: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-31 10:28:14.243051: wfastcgi.py 3.0.0 initialized
+2023-07-31 10:36:48.994014: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-31 10:36:48.994014: Running on_exit tasks
+2023-07-31 10:36:48.994014: wfastcgi.py 3.0.0 closed
+2023-07-31 14:25:02.781858: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-31 14:25:02.781858: wfastcgi.py 3.0.0 initialized
+2023-07-31 14:37:03.849781: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-31 14:37:03.849781: Running on_exit tasks
+2023-07-31 14:37:03.849781: wfastcgi.py 3.0.0 closed
+2023-07-31 18:00:38.656648: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-31 18:00:38.656648: wfastcgi.py 3.0.0 initialized
+2023-07-31 18:08:33.250771: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-31 18:08:33.266373: Running on_exit tasks
+2023-07-31 18:08:33.266373: wfastcgi.py 3.0.0 closed
+2023-07-31 18:19:01.863601: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-31 18:19:01.863601: wfastcgi.py 3.0.0 initialized
+2023-07-31 18:24:41.671971: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-31 18:24:41.671971: Running on_exit tasks
+2023-07-31 18:24:41.671971: wfastcgi.py 3.0.0 closed
+2023-07-31 18:25:50.783281: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-07-31 18:25:50.783281: wfastcgi.py 3.0.0 initialized
+2023-07-31 18:31:01.496008: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-07-31 18:31:01.496008: Running on_exit tasks
+2023-07-31 18:31:01.496008: wfastcgi.py 3.0.0 closed
+2023-08-01 14:53:33.830863: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-08-01 14:53:33.830863: wfastcgi.py 3.0.0 initialized
+2023-08-01 14:59:07.494526: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-08-01 14:59:07.494526: Running on_exit tasks
+2023-08-01 14:59:07.494526: wfastcgi.py 3.0.0 closed
+2023-08-01 16:43:35.141212: wfastcgi.py will restart when files in C:\inetpub\wwwroot\FlaskApp\ are changed: .*((\.py)|(\.config))$
+2023-08-01 16:43:35.141212: wfastcgi.py 3.0.0 initialized
+2023-08-01 17:02:41.774463: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+OSError: [Errno 22] Invalid argument
+2023-08-01 17:02:41.774463: Running on_exit tasks
+2023-08-01 17:02:41.774463: wfastcgi.py 3.0.0 closed
